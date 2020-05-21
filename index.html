@@ -2,28 +2,30 @@
 <html>
     <head>
         <title>finteService</title>
+        <link rel="stylesheet" href="css/test.css">
     </head>
     <body>
-        <h1>예금주 조회</h1>
+        <div class="flame">
+            <h1><span style="color: rgb(10, 35, 43);">Account Holder</span></h1>
 
-        은행코드<br>
-        <input type="text"  class = "Bncd parameter"/><br>
+            <label class="slider-label">Loan Term:</label>은행코드<br>
+            <input type="text"  class = "Bncd parameter" placeholder="은행코드"/><br>
 
-        계좌번호<br>
-        <input type="text"  class = "Acno parameter"/><br>
+            <label class="slider-label">Loan Term:</label>계좌번호<br>
+            <input type="text"  class = "Acno parameter" placeholder="계좌번호"/><br>
 
-       
+
+            <input type="button" value="조회" class="submit"><br>
+            
+
+            
+            <input type="text"  class = "name" placeholder="결과"/><br>
+            예금주<br><br>
+            <script type="text/javascript" src="js/main.js"></script>
+
+            
         
-        우선순위를 선택하세요.<br>
-        <input type="radio" name="sequence" value ="1">1순위
-        <input type="radio" name="sequence" value ="2">2순위
-        <input type="radio" name="sequence" value ="3">3순위<br>
-        
-        
-        <input type="submit" value="등록" class="submit">
-        
-        예금주<br>
-        <input type="text"  class = "name"/><br>
-        <script type="text/javascript" src="js/main.js"></script>
+        </div>
+    
     </body>
 </html>

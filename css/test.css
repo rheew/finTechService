@@ -1,0 +1,69 @@
+body {
+    background: #dad4d4;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+  }
+  h1{
+      text-align: center;
+      font-family:'Questrial', Verdana, sans-serif;
+      color: #8C8C8C;
+  }
+.flame{
+    width:450px;
+    height:80%;
+    background-color:white;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+  label.slider-label {
+    font-size: 16px;
+    display: inline-block;
+    margin: 0 0 5px;
+}
+.name {
+    margin-top:100px;
+}
+.submit {
+    margin-left:25%;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 50%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+  .submit:hover,.submit:active,.submit:focus {
+    background: #43A047;
+  }
+input[type=text], input[type=email], input[type=password], input[type=search], input[type=number], input[type=checkbox], input[type=radio], select, textarea {
+    border: 1px solid #dfdfdf;
+    font-size: 1rem;
+    padding: 1rem;
+    color: #444;
+    border-radius: 3px;
+    transition: all .2s ease-in-out;
+    outline: 0;
+    display: inline-block;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+input[type=text], input[type=email], input[type=password], input[type=search], input[type=number] {
+    height: 3rem;
+    padding: 0 .85rem;
+    width: calc(100% - 0.85rem - 0.85rem - 1px - 1px);
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, input[type=search]:focus, input[type=number]:focus, input[type=checkbox]:focus, input[type=radio]:focus, select:focus, textarea:focus {
+    border-color: #0069ff;
+}
